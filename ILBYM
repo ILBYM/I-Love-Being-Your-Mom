@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love Being Your Mom</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+        }
+        header {
+            background-color: #F8E8E8; /* Soft Pink */
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            width: 100px;
+            height: auto;
+        }
+        nav {
+            background-color: #F8E8E8; /* Soft Pink */
+            padding: 10px;
+            position: relative;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            position: relative;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000; /* Black */
+            padding: 10px 15px;
+            display: block;
+        }
+        .mega-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .mega-menu ul {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .mega-menu ul li {
+            width: 25%;
+            padding: 10px;
+        }
+        nav ul li:hover .mega-menu {
+            display: block;
+        }
+        section {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #000; /* Black */
+        }
+        .section-title {
+            background-color: #F8E8E8; /* Soft Pink */
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .subsection {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #000; /* Black */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logoheart.png" alt="I Love Being Your Mom Logo">
+    <h1>I Love Being Your Mom</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#faith-wellness">Faith + Wellness</a>
+            <div class="mega-menu">
+                <ul>
+                    <li><a href="#mind">Mind</a></li>
+                    <li><a href="#body">Body</a></li>
+                    <li><a href="#soul">Soul</a></li>
+                    <li><a href="#relationships">Relationships</a></li>
+                    <li><a href="#fitness">Fitness</a></li>
+                    <li><a href="#wellness">Wellness</a></li>
+                    <li><a href="#mental-health">Mental Health</a></li>
+                    <li><a href="#grief">Grief</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#family-home">Family + Home</a>
+            <div class="mega-menu">
+                <ul>
+                    <li><a href="#kids">Kids</a></li>
+                    <li><a href="#motherhood">Motherhood</a></li>
+                    <li><a href="#entertaining">Entertaining</a></li>
+                    <li><a href="#recipe">Recipe</a></li>
+                    <li><a href="#decor">Decor</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#life-style">Life + Style</a>
+            <div class="mega-menu">
+                <ul>
+                    <li><a href="#moming">Moming</a></li>
+                    <li><a href="#beauty">Beauty</a></li>
+                    <li><a href="#style">Style</a></li>
+                    <li><a href="#guides">Guides</a></li>
+                    <li><a href="#travel">Travel</a></li>
+                    <li><a href="#my-life">My Life</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#ilbym">ILBYM</a>
+            <div class="mega-menu">
+                <ul>
+                    <li><a href="#podcast">Podcast</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#interviews">Interviews</a></li>
+                    <li><a href="#social-media">Social Media</a></li>
+                    <li><a href="#events">Events</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<section id="faith-wellness">
+    <div class="section-title">
+        <h2>Faith + Wellness</h2>
+    </div>
+    <div class="subsection" id="mind">
+        <h3>Mind</h3>
+        <p>Content about mind wellness...</p>
+    </div>
+    <div class="subsection" id="body">
+        <h3>Body</h3>
+        <p>Content about body wellness...</p>
+    </div>
+    <div class="subsection" id="soul">
+        <h3>Soul</h3>
+        <p>Content about soul wellness...</p>
+    </div>
+    <!-- Add more subsections as needed -->
+</section>
+
+<section id="family-home">
+    <div class="section-title">
+        <h2>Family + Home</h2>
+    </div>
+    <div class="subsection" id="kids">
+        <h3>Kids</h3>
+        <p>Content about kids...</p>
+    </div>
+    <div class="subsection" id="motherhood">
+        <h3>Motherhood</h3>
+        <p>Content about motherhood...</p>
+    </div>
+    <div class="subsection" id="entertaining">
+        <h3>Entertaining</h3>
+        <p>Content about entertaining...</p>
+    </div>
+    <!-- Add more subsections as needed -->
+</section>
+
+<section id="life-style">
+    <div class="section-title">
+        <h2>Life + Style</h2>
+    </div>
+    <div class="subsection" id="moming">
+        <h3>Moming</h3>
+        <p>Content about moming...</p>
+    </div>
+    <div class="subsection" id="beauty">
+        <h3>Beauty</h3>
+        <p>Content about beauty...</p>
+    </div>
+    <div class="subsection" id="style">
+        <h3>Style</h3>
+        <p>Content about style...</p>
+    </div>
+    <!-- Add more subsections as needed -->
+</section>
+
+<section id="ilbym">
+    <div class="section-title">
+        <h2>ILBYM</h2>
+    </div>
+    <div class="subsection" id="podcast">
+        <h3>Podcast</h3>
+        <p>Content about podcast...</p>
+    </div>
+    <div class="subsection" id="videos">
+        <h3>Videos</h3>
+        <p>Content about videos...</p>
+    </div>
+    <div class="subsection" id="interviews">
+        <h3>Interviews</h3>
+        <p>Content about interviews...</p>
+    </div>
+    <!-- Add more subsections as needed -->
+</section>
+
+<footer>
+    <p>&copy; 2024 I Love Being Your Mom. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
